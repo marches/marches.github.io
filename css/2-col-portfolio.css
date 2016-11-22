@@ -14,6 +14,9 @@ body {
 .navbar-inverse .navbar-brand {
     color: #efefef;
 }
+.navbar-inverse .navbar-nav>li>a {
+    color: #efefef;
+}
 .portfolio-item {
     margin-bottom: 25px;
 }
