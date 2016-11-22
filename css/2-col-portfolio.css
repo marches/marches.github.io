@@ -11,6 +11,9 @@ body {
     background-color: #cccccccc;
     border-color: #080808;
 }
+.navbar-inverse .navbar-brand {
+    color: #efefef;
+}
 .portfolio-item {
     margin-bottom: 25px;
 }
