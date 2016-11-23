@@ -11,8 +11,8 @@ body {
     position: static;
 }
 .navbar-inverse {
-    background-color: #cccccc;
-    border-color: #cccccc;
+    background-color: #808080;
+    border-color: #808080;
 }
 .navbar-inverse .navbar-brand {
     color: #FFFFFF;
