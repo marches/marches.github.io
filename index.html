@@ -120,15 +120,9 @@
 <!-- Bootstrap Core JavaScript --> 
 <script src="js/bootstrap.min.js"></script> 
 <script>
-
-var aboutMe = $('#aboutMe'); // scrolls to below video
-
 function scrollsToAboutMe() { // attached to Replay Video link
-    $('html, body').animate({
-        scrollTop: aboutMe.offset()
-    }, 1500);
+    $("html, body").animate({ scrollTop: $('#aboutMe').offset().top }, 500);
 }
-
 
 </script>
 </body>
