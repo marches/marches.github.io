@@ -11,8 +11,8 @@ body {
     position: static;
 }
 .navbar-inverse {
-    background-color: #404040;
-    border-color: #404040;
+    background-color: #606060;
+    border-color: #606060;
 }
 .navbar-inverse .navbar-brand {
     color: #FFFFFF;
@@ -21,7 +21,7 @@ body {
     color: #FFFFFF;
 }
 .project-header {
-    color: #759ad2;
+    color: #606060;
     font-size: 25px;
 }
 .portfolio-item {
