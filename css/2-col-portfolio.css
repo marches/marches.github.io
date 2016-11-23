@@ -43,7 +43,7 @@ body {
     font-style: italic;
 }
 
-button:active {
+.buttonOpen:active {
     outline: none;
     border: none;
 }
