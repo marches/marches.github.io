@@ -37,17 +37,13 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-width: 0x!important;
+    padding: 2px 5px; 
 }
 
 .buttonClose {
     font-style: italic;
 }
 
-.buttonOpen:active {
-    outline: none;
-    border: none;
-}
 
 .ProjectDescription {
     padding:15px;
