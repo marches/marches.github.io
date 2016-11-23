@@ -43,6 +43,11 @@ body {
     font-style: italic;
 }
 
+button:active {
+    outline: none;
+    border: none;
+}
+
 .ProjectDescription {
     padding:15px;
 }
