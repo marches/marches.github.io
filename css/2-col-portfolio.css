@@ -11,14 +11,14 @@ body {
     position: static;
 }
 .navbar-inverse {
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #cccccc;
+    border-color: #cccccc;
 }
 .navbar-inverse .navbar-brand {
-    color: #ffffff;
+    color: #FFFFFF;
 }
 .navbar-inverse .navbar-nav>li>a {
-    color: #ffffff;
+    color: #FFFFFF;
 }
 .portfolio-item {
     margin-bottom: 25px;
