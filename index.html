@@ -47,38 +47,61 @@
 </nav>
 
 <!-- Page Content -->
-<div class="container"> 
-  
-  <!-- Page Header -->
-  <div class="row">
-    <div class="col-lg-12">
-      <h1 class="page-header">Portfolio </h1>
-    </div>
+<div class="container">
+
+<!-- Page Header -->
+<div class="row">
+  <div class="col-lg-12">
+    <h1 class="page-header">Portfolio </h1>
   </div>
-  <!-- /.row --> 
-  
-  <!-- Projects Row -->
-  <div class="row">
-    <div class="col-md-6 portfolio-item">
-      <h2 class="project-header">Project One </h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-    </div>
+</div>
+<!-- /.row --> 
+
+<!-- Projects Row -->
+<div class="row">
+  <div class="col-md-6 portfolio-item">
     <div class="col-md-6 portfolio-item"> <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-      <h2 class="project-header">Project Two </h2>
+      <h2 class="project-header">Project One</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+      <button id="ProjectOneOpenButton">Read More</button>
+      <div id="ProjectOneDescription">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+        <button id="ProjectOneCloseButton">Close</button>
+      </div>
     </div>
   </div>
-  <!-- /.row --> 
-  
-  <!-- Projects Row -->
-  <div class="row">
-    <div class="col-md-6 portfolio-item"> <img class="img-responsive" src="https://raw.githubusercontent.com/marches/marches.github.io/master/DesignNature.jpg" alt="Design Nature Termites">
-      <h2 class="project-header">Termite-Inspired Play Experience</h2>
-      <p>With a team of five, I created a play experience for 4th graders based on the tunnelling and mound-building behaviors of termites. The final product was a 10 ft. x 14 ft. maze filled with nearly 100 building blocks.</p>
+  <div class="col-md-6 portfolio-item"> <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+    <h2 class="project-header">Project Two </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+    <button id="ProjectTwoOpenButton">Read More</button>
+    <div id="ProjectTwoDescription">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+      <button id="ProjectTwoCloseButton">Close</button>
     </div>
-    <div class="col-md-6 portfolio-item">
+  </div>
+</div>
+<!-- /.row --> 
+
+<!-- Projects Row -->
+<div class="row">
+  <div class="col-md-6 portfolio-item"> <img class="img-responsive" src="https://raw.githubusercontent.com/marches/marches.github.io/master/DesignNature.jpg" alt="Design Nature Termites">
+    <h2 class="project-header">Termite-Inspired Play Experience</h2>
+    <p>With a team of five, I created a play experience for 4th graders based on the tunnelling and mound-building behaviors of termites. The final product was a 10 ft. x 14 ft. maze filled with nearly 100 building blocks.</p>
+    <button id="ProjectThreeOpenButton">Read More</button>
+    <div id="ProjectThreeDescription">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+      <button id="ProjectThreeCloseButton">Close</button>
+    </div>
+  </div>
+  <div class="col-md-6 portfolio-item">
+    <div class="col-md-6 portfolio-item"> <img class="img-responsive" src="http://placehold.it/700x400" alt="">
       <h2 class="project-header">Project Four</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+      <button id="ProjectFourOpenButton">Read More</button>
+      <div id="ProjectFourDescription">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+        <button id="ProjectFourCloseButton">Close</button>
+      </div>
     </div>
   </div>
   <!-- /.row --> 
@@ -88,6 +111,11 @@
     <div class="col-md-6 portfolio-item"> <img class="img-responsive" src="http://placehold.it/700x400" alt="">
       <h2 class="project-header">Project Five </h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+      <button id="ProjectFiveOpenButton">Read More</button>
+      <div id="ProjectFiveDescription">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+        <button id="ProjectFiveCloseButton">Close</button>
+      </div>
     </div>
   </div>
   <!-- /.row --> 
@@ -130,6 +158,55 @@
 function scrollsToAboutMe() { // attached to Replay Video link
     $("html, body").animate({ scrollTop: $('#aboutMe').offset().top }, 500);
 }
+
+ $(document).ready(function () {
+     $("#ProjectOneOpenButton").click(function () 
+     { $("#ProjectOneDescription").slideToggle(400); });
+     $("#ProjectOneCloseButton").click(function () 
+     { $("#ProjectOneDescription").slideToggle(400); });
+     $("#ProjectOneDescription").hide(); 
+
+ })
+$(document).ready(function () {
+    $("#ProjectTwoOpenButton").click(function () 
+    { $("#ProjectTwoDescription").slideToggle(400); });
+    $("#ProjectTwoCloseButton").click(function () 
+    { $("#ProjectTwoDescription").slideToggle(400); });
+    $("#ProjectTwoDescription").hide(); 
+
+})
+	
+$(document).ready(function () {
+    $("#ProjectThreeOpenButton").click(function () 
+    { $("#ProjectThreeDescription").slideToggle(400); });
+    $("#ProjectThreeCloseButton").click(function () 
+    { $("#ProjectThreeDescription").slideToggle(400); });
+    $("#ProjectThreeDescription").hide(); 
+
+})
+	
+	
+$(document).ready(function () {
+    $("#ProjectFourOpenButton").click(function () 
+    { $("#ProjectFourDescription").slideToggle(400); });
+    $("#ProjectFourCloseButton").click(function () 
+    { $("#ProjectFourDescription").slideToggle(400); });
+    $("#ProjectFourDescription").hide(); 
+
+})
+	
+$(document).ready(function () {
+    $("#ProjectFiveOpenButton").click(function () 
+    { $("#ProjectFiveDescription").slideToggle(400); });
+    $("#ProjectFiveCloseButton").click(function () 
+    { $("#ProjectFiveDescription").slideToggle(400); });
+    $("#ProjectFiveDescription").hide(); 
+
+})
+
+
+	
+
 
 </script>
 </body>
