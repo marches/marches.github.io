@@ -27,6 +27,25 @@ body {
 .portfolio-item {
     margin-bottom: 25px;
 }
+
+.buttonClose, .buttonOpen {
+    background-color: #ffffff;
+    border: none;
+    color: #759ad2;
+    padding: 0px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.buttonClose {
+    font-style: italic;
+}
+
+.ProjectDescription {
+    padding:15px;
+}
 footer {
     margin: 50px 0;
 }
