@@ -154,6 +154,16 @@
       </div> -->
     </div>
   </div>
+    <div class="col-md-6 portfolio-item"> <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+      <h2 class="project-header">Project Six</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+      <button class="buttonOpen"  id="ProjectSixOpenButton">Read More</button>
+      <div class="ProjectDescription"  id="ProjectSixDescription">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+        <button class="buttonClose"  id="ProjectSixCloseButton">Close</button>
+      </div>
+    </div>
+  </div>
   <!-- /.row --> 
   
   <!-- About Me -->
@@ -239,6 +249,16 @@ $(document).ready(function () {
     $("#ProjectFiveDescription").hide(); 
 
 })
+	
+$(document).ready(function () {
+    $("#ProjectSixOpenButton").click(function () 
+    { $("#ProjectSixDescription").slideToggle(400); });
+    $("#ProjectSixCloseButton").click(function () 
+    { $("#ProjectSixDescription").slideToggle(400); });
+    $("#ProjectSixDescription").hide(); 
+
+})
+
 
 
 	
