@@ -44,6 +44,10 @@ body {
     font-style: italic;
 }
 
+figure img {
+ padding:3px;
+}
+
 
 .ProjectDescription {
     padding:15px;
