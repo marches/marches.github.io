@@ -5,24 +5,24 @@
  */
 
 body {
-    padding-top: 60px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    background-color: lightblue;
+    padding-top: 30px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #EFEFEF;
 }
 .navbar-fixed-bottom, .navbar-fixed-top {
     position: static;
 }
 .navbar-inverse {
-    background-color: #606060;
-    border-color: #606060;
+    background-color: #CAEBF2;
+    border-color: #CAEBF2;
 }
 .navbar-inverse .navbar-brand {
-    color: #FFFFFF;
+    color: #FF383F;
 }
 .navbar-inverse .navbar-nav>li>a {
-    color: #FFFFFF;
+    color: #FF383F;
 }
 .project-header {
-    color: #606060;
+    color: #A9A9A9;
     font-size: 25px;
 }
 .portfolio-item {
@@ -31,7 +31,7 @@ body {
 
 
 .buttonClose, .buttonOpen {
-    background-color: lightblue;
+    background-color: #EFEFEF;
     border: none;
     color: #759ad2;
     padding: 0px;
