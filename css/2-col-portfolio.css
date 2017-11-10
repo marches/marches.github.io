@@ -31,7 +31,7 @@ body {
 
 
 .buttonClose, .buttonOpen {
-    background-color: #lightblue;
+    background-color: lightblue;
     border: none;
     color: #759ad2;
     padding: 0px;
