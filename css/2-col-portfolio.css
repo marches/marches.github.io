@@ -12,14 +12,14 @@ body {
     position: static;
 }
 .navbar-inverse {
-    background-color: #111E6C;
-    border-color: #111E6C;
+    background-color: #EFEFEF;
+    border-color: #EFEFEF;
 }
 .navbar-inverse .navbar-brand {
-    color: #ff7f50;
+    color: #111E6C;
 }
 .navbar-inverse .navbar-nav>li>a {
-    color: #ff7f50;
+    color: #111E6C;
 }
 .project-header {
     color: #111E6C;
